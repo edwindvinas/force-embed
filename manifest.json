@@ -1,0 +1,11 @@
+{
+  "name": "Force Enable Embed",
+  "version": "0.0.1",
+  "manifest_version": 2,
+
+  "description": "Removes the X-Frame-Options HTTP response header to force all pages to be able to be displayed in an iframe",
+  "background": {
+    "scripts": ["embed.js"]
+  },
+  "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"]
+}
